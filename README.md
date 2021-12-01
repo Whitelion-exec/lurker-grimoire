@@ -8,7 +8,7 @@ While I do support open source projects, I do not believe that modifying or view
 <br/>
 Second, this is also a place for me to write a constantly updated book, the contents of which I retain full copyright of. So given that all of the code part is basically useless and the content part is copyrighted, no licensing works best. Or in other words, "All rights reserved".<br/>
 <br/>
-As an aside, while forking the repository is *technically* permitted by Github ToS, I don't particularly want my book to have old copies being forked and tossed around even for the sake of keeping history. Of course, modifying the contents of the forked repository is of course a violation of the licensing agreements stated.
+As an aside, while forking the repository is *technically* permitted by Github ToS, I don't particularly want my book to have old copies being forked and tossed around even for the sake of keeping history. Of course, modifying the contents of the forked repository is a violation of the licensing agreements stated.
 
 ## Content
 - [x] README
