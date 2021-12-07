@@ -1,0 +1,13 @@
+# Latex aux files #
+######################
+*.aux
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.idx
+*.ind
+*.ilg
+*.lot
+*.toc
+*.dvi

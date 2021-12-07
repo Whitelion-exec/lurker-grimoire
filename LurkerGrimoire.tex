@@ -1,0 +1,148 @@
+% Preamble ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\documentclass{book}
+\makeindex
+
+% Lorem ipsum
+\usepackage{lipsum}
+\usepackage{textcomp}
+\newcommand{\comment}[1]{}
+% Color
+\usepackage{xcolor}
+\usepackage{pagecolor}
+\pagecolor{black}
+\color{white}
+% Paper size: A5
+\usepackage[11pt]{extsizes}
+\usepackage[paperwidth=148mm, paperheight=210mm, top=15mm, bottom = 15mm, inner=18mm, outer = 15mm]{geometry}
+\special{papersize=148mm,210mm}
+% Customizing section titles
+\usepackage{titlesec}
+\titleformat{\chapter}[display]{\bf\LARGE}{\vspace{-50pt}Chapter \thechapter}{.1em}{}
+\titlespacing{\chapter}{0pt}{10pt}{20pt}
+\titleformat{\section}[block]{\large\bfseries\filcenter}{\fbox{\thesection}}{1em}{}
+\titlespacing{\section}{0pt}{10pt}{10pt}
+\titleformat{\subsection}{\bf}{\thesubsection}{1em}{}
+\titlespacing{\subsection}{0pt}{10pt}{2pt}
+\titleformat{\subsubsection}{\bf\it}{}{0em}{}
+\titlespacing{\subsubsection}{0pt}{10pt}{5pt}
+% List styles
+\newcommand{\be}{\begin{enumerate}} \newcommand{\ee}{\end{enumerate}}
+\newcommand{\bq}{\begin{quote}} \newcommand{\eq}{\end{quote}}
+\newcommand{\bd}{\begin{description}} \newcommand{\ed}{\end{description}}
+\newcommand{\bi}{\begin{itemize}} \newcommand{\ei}{\end{itemize}}
+\newcommand{\bii}{\begin{itemize}\itemsep1.25em}
+\newcommand{\bit}{\begin{itemize}\itemsep2.5em}
+\def\i{\item} \def\sep{0.5em}
+% Space
+\def\vspl{\vspace{20pt}} \def\vsp{\vspace{10pt}} \def\vsps{\vspace{5pt}}
+\def\vsptile{\vspace{-18pt}} 
+% Document information
+\title{Lurker Grimoire\\$\sim$Philosophy of the Despised$\sim$}
+\author{Whitelion}
+
+% Text from here ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{document}
+
+% Front Matter ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\frontmatter
+\pagenumbering{roman}
+
+% Cover Page 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\thispagestyle{empty}
+
+\begin{flushleft}
+
+\vspace*{.24\paperheight}
+
+{\LARGE Lurker Grimoire\\$\sim$Philosophy of the Despised$\sim$}
+
+\vspace*{.08\paperheight}
+\hfill {\LARGE Whitelion}
+
+\end{flushleft}
+
+\restoregeometry
+
+\thispagestyle{empty}
+\mbox{}\newpage
+
+% Title Page ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\thispagestyle{empty}
+\setcounter{page}{1}
+\pagebreak
+
+\begin{flushright}
+
+\vspace*{.18\paperheight}
+
+{\Huge Lurker Grimoire}\\
+{\Large $\sim$Philosophy of the Despised$\sim$}\\
+
+\vspace*{.08\paperheight}
+A dedication to humanity.
+
+\vspace*{.08\textheight} 
+
+{\Large
+Whitelion\\
+}
+
+\vfill
+
+\end{flushright}
+
+\pagebreak
+
+% Copyright ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\pagebreak
+\thispagestyle{empty}
+
+\noindent
+Copyright \copyright ~2021 Whitelion.\\
+No licensing to modify this book in any way is granted.
+
+\vfill
+\begin{center}
+Dedicated to the venerable beauty of human nature.\\
+\today
+\end{center}
+
+
+% Preface ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\pagebreak
+
+\let\cleardoublepage\clearpage
+\input{LurkerGrimoire-preface}
+
+
+% Table of Contents ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\tableofcontents
+%\listoftables
+
+\newpage
+
+\pagenumbering{arabic}
+\mainmatter
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%			Part 1: Something
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\part{Something} \label{part:something}
+
+%\input{something}
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%			Appendix
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+%\begin{appendices}
+
+%\input{appendices}
+
+%\end{appendices}
+
+\end{document}
+
